@@ -12,7 +12,8 @@ class Shoe
     @cobble = cobble
   end
   def cobble
-    self.condition = newputs "Your shoe is as good as new!"
+    self.condition = new
+    puts "Your shoe is as good as new!"
     
   end
   
